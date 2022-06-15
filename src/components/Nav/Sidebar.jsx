@@ -12,7 +12,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
         <div className='flexNullCenter'>
           <LogoIcon />
           <h1 className='whiteColor font20' style={{ marginLeft: '15px' }}>
-            fanatic
+            terabits.asia
           </h1>
         </div>
         <CloseBtn
@@ -110,7 +110,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
         </li>
       </UlStyle>
       <UlStyle className='flexSpaceCenter'>
-        <li className='semiBold font15 pointer'>
+        {/* <li className='semiBold font15 pointer'>
           <a
             href='/'
             style={{ padding: '10px 30px 10px 0' }}
@@ -118,7 +118,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           >
             Log in
           </a>
-        </li>
+        </li> */}
         <li className='semiBold font15 pointer flexCenter'>
           <a
             href='/'
