@@ -12,7 +12,7 @@ export default function Header() {
     <Wrapper id='home' className='container flexSpaceCenter'>
       <LeftSide className='flexCenter'>
         <div>
-          <h1 className='extraBold font60'>We are Digital Agency.</h1>
+          <h1 className='extraBold font60'>Build your development team.</h1>
           <HeaderP className='font13 semiBold'>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -44,7 +44,7 @@ export default function Header() {
                 </em>
               </p>
               <p
-                className='font13 orangeColor textRight'
+                className='font13 greenColor textRight'
                 style={{ marginTop: '10px' }}
               >
                 Ralph Waldo Emerson

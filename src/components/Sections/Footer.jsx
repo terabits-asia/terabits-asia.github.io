@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-scroll';
 
 import LogoImg from '../../assets/svg/Logo';
+import FacebookIcon from '../../assets/svg/FacebookIcon';
 
 export default function Contact() {
   const getCurrentYear = () => {
@@ -28,22 +29,16 @@ export default function Contact() {
                 className='font15 extraBold whiteColor'
                 style={{ marginLeft: '15px' }}
               >
-                Fanatic
+                terabits.asia
               </h1>
             </Link>
             <StyleP className='whiteColor font13'>
               © {getCurrentYear()} -{' '}
-              <span className='purpleColor font13'>Fanatic</span> All Right
+              <span className='greenColor font13'>terabits.asia</span> All Right
               Reserved
             </StyleP>
-
-            <Link
-              className='whiteColor animate pointer font13'
-              to='home'
-              smooth={true}
-              offset={-80}
-            >
-              Back to top
+            <Link className='pointer' to='home'>
+              <FacebookIcon />
             </Link>
           </InnerWrapper>
         </div>

@@ -19,7 +19,7 @@ export default function Pricing() {
           </HeaderInfo>
           <TablesWrapper className='flexSpaceNull'>
             <TableBox>
-              <PricingTable
+              {/* <PricingTable
                 icon='roller'
                 price='$29,99/mo'
                 title='Starter'
@@ -32,6 +32,19 @@ export default function Pricing() {
                   { name: 'Product Offer', cheked: false },
                 ]}
                 action={() => alert('clicked')}
+              /> */}
+              <PricingTable
+                icon='roller'
+                price='$29,99/mo'
+                title='Starter'
+                text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
+                offers={[
+                  { name: 'Product Offer', cheked: true },
+                  { name: 'Offer', cheked: true },
+                  { name: 'Product Offer #2', cheked: false },
+                  { name: 'Product', cheked: false },
+                  { name: 'Product Offer', cheked: false },
+                ]}
               />
             </TableBox>
             <TableBox>
@@ -47,7 +60,6 @@ export default function Pricing() {
                   { name: 'Product', cheked: true },
                   { name: 'Product Offer', cheked: false },
                 ]}
-                action={() => alert('clicked')}
               />
             </TableBox>
             <TableBox>
@@ -63,7 +75,6 @@ export default function Pricing() {
                   { name: 'Product', cheked: true },
                   { name: 'Product Offer', cheked: true },
                 ]}
-                action={() => alert('clicked')}
               />
             </TableBox>
           </TablesWrapper>

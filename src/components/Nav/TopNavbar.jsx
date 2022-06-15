@@ -31,7 +31,7 @@ export default function TopNavbar() {
           <Link className='pointer flexNullCenter' to='home' smooth={true}>
             <LogoIcon />
             <h1 style={{ marginLeft: '15px' }} className='font20 extraBold'>
-              fanatic
+              terabits.asia
             </h1>
           </Link>
           <BurderWrapper
@@ -115,19 +115,13 @@ export default function TopNavbar() {
             </li>
           </UlWrapper>
           <UlWrapperRight className='flexNullCenter'>
-            <li className='semiBold font15 pointer'>
+            {/* <li className='semiBold font15 pointer'>
               <a href='/' style={{ padding: '10px 30px 10px 0' }}>
                 Log in
               </a>
-            </li>
+            </li> */}
             <li className='semiBold font15 pointer flexCenter'>
-              <a
-                href='/'
-                className='radius8 lightBg'
-                style={{ padding: '10px 15px' }}
-              >
-                Get Started
-              </a>
+              <LinkButton href='/'>Get Started</LinkButton>
             </li>
           </UlWrapperRight>
         </NavInner>
@@ -167,5 +161,13 @@ const UlWrapper = styled.ul`
 const UlWrapperRight = styled.ul`
   @media (max-width: 760px) {
     display: none;
+  }
+`;
+const LinkButton = styled.a`
+  border-radius: 1rem;
+  border: 1px solid #121212;
+  padding: 10px 15px;
+  :hover {
+    border: 1px solid #00d563;
   }
 `;

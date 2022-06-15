@@ -120,19 +120,19 @@ table {
 }
 a {
   text-decoration: none !important;
-  color: #0b093b;
+  color: #121212;
 }
 a:hover {
-  color: #7620ff;
+  color: #00d563;
 }
 input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0 50px #fff inset; /* Change the color to your own background color */
+  -webkit-box-shadow: 0 0 0 50px #ffffff inset; /* Change the color to your own background color */
   box-shadow: transparent;
-  -webkit-text-fill-color: #fff;
+  -webkit-text-fill-color: #ffffff;
 }
 body {
-  background: #fff;
-  color: #0b093b;
+  background: #ffffff;
+  color: #121212;
   font-family: 'Khula', sans-serif;
   overflow-x: hidden;
   font-size: 16px;
@@ -185,8 +185,8 @@ body {
   width: 100%;
 }
 .active {
-  border-bottom: 2px solid #7620ff;
-  color: #7620ff;
+  border-bottom: 2px solid #00d563;
+  color: #00d563;
 }
 .tag {
   padding: 5px 10px;
@@ -302,7 +302,7 @@ body {
 }
 /* COLORS */
 .darkColor {
-  color: #0b093b;
+  color: #121212;
 }
 .purpleColor {
   color: #7620ff;
@@ -317,17 +317,17 @@ body {
   color: #c4ffff;
 }
 .greenColor {
-  color: #49cb86;
+  color: #00d563;
 }
 .greyColor {
-  color: #707070;
+  color: #4b4b4b;
 }
 .whiteColor {
-  color: #fff;
+  color: #ffffff;
 }
 /* BACKGROUNDS */
 .darkBg {
-  background-color: #0b093b;
+  background-color: #121212;
 }
 .purpleBg {
   background-color: #7620ff;
@@ -342,11 +342,11 @@ body {
   background-color: #c4ffff;
 }
 .greenBg {
-  background-color: #49cb86;
+  background-color: #00d563;
 }
 .greyBg {
-  background-color: #707070;
+  background-color: #4b4b4b;
 }
 .whiteBg {
-  background-color: #fff;
+  background-color: #ffffff;
 }

@@ -28,11 +28,16 @@ export default function Projects() {
           </HeaderInfo>
           <div className='row textCenter'>
             <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
-              <ProjectBox
+              {/* <ProjectBox
                 img={ProjectImg1}
                 title='Awesome Project'
                 text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
                 action={() => alert('clicked')}
+              /> */}
+              <ProjectBox
+                img={ProjectImg1}
+                title='Awesome Project'
+                text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
               />
             </div>
             <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
@@ -40,7 +45,6 @@ export default function Projects() {
                 img={ProjectImg2}
                 title='Awesome Project'
                 text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
-                action={() => alert('clicked')}
               />
             </div>
             <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
@@ -48,7 +52,6 @@ export default function Projects() {
                 img={ProjectImg3}
                 title='Awesome Project'
                 text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
-                action={() => alert('clicked')}
               />
             </div>
           </div>
@@ -58,7 +61,6 @@ export default function Projects() {
                 img={ProjectImg4}
                 title='Awesome Project'
                 text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
-                action={() => alert('clicked')}
               />
             </div>
             <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
@@ -66,7 +68,6 @@ export default function Projects() {
                 img={ProjectImg5}
                 title='Awesome Project'
                 text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
-                action={() => alert('clicked')}
               />
             </div>
             <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
@@ -74,13 +75,13 @@ export default function Projects() {
                 img={ProjectImg6}
                 title='Awesome Project'
                 text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
-                action={() => alert('clicked')}
               />
             </div>
           </div>
           <div className='row flexCenter'>
             <div style={{ margin: '50px 0', width: '200px' }}>
-              <FullButton title='Load More' action={() => alert('clicked')} />
+              {/* <FullButton title='Load More' action={() => alert('clicked')} /> */}
+              <FullButton title='Load More' />
             </div>
           </div>
         </div>
@@ -109,17 +110,19 @@ export default function Projects() {
                 style={{ margin: '30px 0' }}
               >
                 <div style={{ width: '190px' }}>
-                  <FullButton
+                  {/* <FullButton
                     title='Get Started'
                     action={() => alert('clicked')}
-                  />
+                  /> */}
+                  <FullButton title='Get Started' />
                 </div>
                 <div style={{ width: '190px', marginLeft: '15px' }}>
-                  <FullButton
+                  {/* <FullButton
                     title='Contact Us'
                     action={() => alert('clicked')}
                     border
-                  />
+                  /> */}
+                  <FullButton title='Contact Us' border />
                 </div>
               </ButtonsRow>
             </AddRight>

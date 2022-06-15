@@ -77,17 +77,19 @@ export default function Services() {
                   style={{ margin: '30px 0' }}
                 >
                   <div style={{ width: '190px' }}>
-                    <FullButton
+                    {/* <FullButton
                       title='Get Started'
                       action={() => alert('clicked')}
-                    />
+                    /> */}
+                    <FullButton title='Get Started' />
                   </div>
                   <div style={{ width: '190px', marginLeft: '15px' }}>
-                    <FullButton
+                    {/* <FullButton
                       title='Contact Us'
                       action={() => alert('clicked')}
                       border
-                    />
+                    /> */}
+                    <FullButton title='Contact Us' border />
                   </div>
                 </ButtonsRow>
               </AddLeft>
