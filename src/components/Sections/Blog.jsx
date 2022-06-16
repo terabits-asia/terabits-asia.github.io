@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 import BlogBox from '../Elements/BlogBox';
@@ -6,10 +6,6 @@ import FullButton from '../Buttons/FullButton';
 import TestimonialSlider from '../Elements/TestimonialSlider';
 
 export default function Blog() {
-  const [blogs, setBlogs] = useState();
-
-  useEffect(() => {}, []);
-
   return (
     <Wrapper id='blog'>
       <div className='whiteBg'>
