@@ -109,7 +109,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           </Link>
         </li>
       </UlStyle>
-      <UlStyle className='flexSpaceCenter'>
+      <UlStyle className='flexCenter'>
         {/* <li className='semiBold font15 pointer'>
           <a
             href='/'
