@@ -12,12 +12,15 @@ export default function Header() {
     <Wrapper id='home' className='container flexSpaceCenter'>
       <LeftSide className='flexCenter'>
         <div>
-          <h1 className='extraBold font60'>Build your development team.</h1>
+          <h1 className='extraBold font60'>
+            Build your business with{' '}
+            <span style={{ color: '#00D563' }}>Terabits</span>
+          </h1>
           <HeaderP className='font13 semiBold'>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum.
+            A highly skilled and efficient development team is your ticket to
+            success. It’s the core driver of any software development project.
+            If you’re new to the industry, here are things you ought to know as
+            you build a software team.
           </HeaderP>
           <BtnWrapper>
             <FullButton title='Get Started' />
@@ -30,7 +33,7 @@ export default function Header() {
             className='radius8'
             src={HeaderImage}
             alt='office'
-            style={{ zIndex: 9 }}
+            style={{ width: 426, height: 607, zIndex: 9 }}
           />
           <QuoteWrapper className='flexCenter darkBg radius8'>
             <QuotesWrapper>
@@ -39,15 +42,15 @@ export default function Header() {
             <div>
               <p className='font15 whiteColor'>
                 <em>
-                  Friends, such as we desire, are dreams and fables. Friendship
-                  demands the ability to do without it.
+                  Startup is like people are sitting in a boat and rowing. All
+                  must row and it will go forward quickly.
                 </em>
               </p>
               <p
                 className='font13 greenColor textRight'
                 style={{ marginTop: '10px' }}
               >
-                Ralph Waldo Emerson
+                Leader of our Terabits
               </p>
             </div>
           </QuoteWrapper>

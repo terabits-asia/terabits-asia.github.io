@@ -1,29 +1,29 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import RollerIcon from '../../assets/svg/Services/RollerIcon';
-import MonitorIcon from '../../assets/svg/Services/MonitorIcon';
-import BrowserIcon from '../../assets/svg/Services/BrowserIcon';
-import PrinterIcon from '../../assets/svg/Services/PrinterIcon';
+import WireframeIcon from '../../assets/svg/Services/WireframeIcon';
+import MobileIcon from '../../assets/svg/Services/MobileIcon';
+import WebsiteIcon from '../../assets/svg/Services/WebsiteIcon';
+import BusinessIcon from '../../assets/svg/Services/BusinessIcon';
 
 export default function ServiceBox({ icon, title, subtitle }) {
   let getIcon;
 
   switch (icon) {
-    case 'roller':
-      getIcon = <RollerIcon />;
+    case 'wireframe':
+      getIcon = <WireframeIcon />;
       break;
-    case 'monitor':
-      getIcon = <MonitorIcon />;
+    case 'mobile':
+      getIcon = <MobileIcon />;
       break;
-    case 'browser':
-      getIcon = <BrowserIcon />;
+    case 'website':
+      getIcon = <WebsiteIcon />;
       break;
-    case 'printer':
-      getIcon = <PrinterIcon />;
+    case 'business':
+      getIcon = <BusinessIcon />;
       break;
     default:
-      getIcon = <RollerIcon />;
+      getIcon = <WireframeIcon />;
       break;
   }
 

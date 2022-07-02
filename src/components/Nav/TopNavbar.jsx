@@ -30,9 +30,9 @@ export default function TopNavbar() {
         <NavInner className='container flexSpaceCenter'>
           <Link className='pointer flexNullCenter' to='home' smooth={true}>
             <LogoIcon />
-            <h1 style={{ marginLeft: '15px' }} className='font20 extraBold'>
+            {/* <h1 style={{ marginLeft: '15px' }} className='font20 extraBold'>
               terabits.asia
-            </h1>
+            </h1> */}
           </Link>
           <BurderWrapper
             className='pointer'
@@ -77,7 +77,7 @@ export default function TopNavbar() {
                 Projects
               </Link>
             </li>
-            <li className='semiBold font15 pointer'>
+            {/* <li className='semiBold font15 pointer'>
               <Link
                 activeClass='active'
                 style={{ padding: '10px 15px' }}
@@ -88,8 +88,8 @@ export default function TopNavbar() {
               >
                 Blog
               </Link>
-            </li>
-            <li className='semiBold font15 pointer'>
+            </li> */}
+            {/* <li className='semiBold font15 pointer'>
               <Link
                 activeClass='active'
                 style={{ padding: '10px 15px' }}
@@ -100,7 +100,7 @@ export default function TopNavbar() {
               >
                 Pricing
               </Link>
-            </li>
+            </li> */}
             <li className='semiBold font15 pointer'>
               <Link
                 activeClass='active'

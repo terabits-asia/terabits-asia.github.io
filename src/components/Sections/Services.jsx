@@ -23,8 +23,9 @@ export default function Services() {
           <HeaderInfo>
             <h1 className='font40 extraBold'>Our Awesome Services</h1>
             <p className='font13'>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut
+              Lorem he primary purpose of offering employee loan is to ease the
+              monetary stress for the employees. for the employees. It may
+              become financial assistance in case of an emergency as.
               <br />
               labore et dolore magna aliquyam erat, sed diam voluptua.
             </p>
@@ -32,30 +33,45 @@ export default function Services() {
           <ServiceBoxRow className='flex'>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon='roller'
-                title='Graphic Design'
-                subtitle='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                icon='wireframe'
+                title='UI/UX Design'
+                subtitle='We ensure that end users have a positive 
+                experience using the software. We check 
+                the functionalities if it’s user-friendly and 
+                easy to navigate. We take user research, 
+                competitive analysis, wireframes, user flows, 
+                content maps etc. very seriously.'
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon='monitor'
-                title='Web Design'
-                subtitle='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.'
+                icon='mobile'
+                title='Mobile Development'
+                subtitle='Mobile developers make use of their 
+                programming skills in app development. 
+                Java, React, ReactNative and all things 
+                mobile app relevent.'
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon='browser'
-                title='Development'
-                subtitle='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.'
+                icon='website'
+                title='Web Development'
+                subtitle='Web developers make use of their 
+                programming skills in Website development. 
+                Responsive website, Wordpress, CMS, Java, 
+                React, ReactNative and all things web app 
+                relevent.'
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon='printer'
-                title='Print'
-                subtitle='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.'
+                icon='business'
+                title='Business Consultation'
+                subtitle='Let us collabrate to achieve your product common 
+                goal for determining the needs of the end users. 
+                Consult with us for your product design and 
+                business goal.'
               />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
@@ -64,13 +80,12 @@ export default function Services() {
           <div className='container'>
             <Advertising className='flexSpaceCenter'>
               <AddLeft>
-                <h4 className='font15 semiBold'>A few words about company</h4>
-                <h2 className='font40 extraBold'>A Study of Creativity</h2>
+                <h4 className='font15 semiBold'>We are Terabits</h4>
+                <h2 className='font40 extraBold'>Terabits Biology</h2>
                 <p className='font12'>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea rebum.
+                  Terabits team is a group of professionals working together to
+                  achieve a common goal. Through collaboration and an efficient
+                  process, we develop software products towards a target market.
                 </p>
                 <ButtonsRow
                   className='flexNullCenter'
@@ -81,7 +96,7 @@ export default function Services() {
                       title='Get Started'
                       action={() => alert('clicked')}
                     /> */}
-                    <FullButton title='Get Started' />
+                    <FullButton title='See More' />
                   </div>
                   <div style={{ width: '190px', marginLeft: '15px' }}>
                     {/* <FullButton
@@ -233,7 +248,7 @@ const AddImgWrapp3 = styled.div`
 `;
 const AddImgWrapp4 = styled.div`
   width: 30%;
-  margin: 0 5%auto;
+  margin: 0 5% auto;
   img {
     width: 100%;
     height: auto;
