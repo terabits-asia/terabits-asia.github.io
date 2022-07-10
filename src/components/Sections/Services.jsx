@@ -7,8 +7,6 @@ import FullButton from '../Buttons/FullButton';
 
 import AddImage1 from '../../assets/img/add/1.png';
 import AddImage2 from '../../assets/img/add/2.png';
-import AddImage3 from '../../assets/img/add/3.png';
-import AddImage4 from '../../assets/img/add/4.png';
 
 export default function Services() {
   return (
@@ -18,17 +16,27 @@ export default function Services() {
           <ClientSlider />
         </div>
       </div>
-      <div className='lightBg'>
+      <div className='whiteBg'>
         <div className='container'>
           <Advertising className='flexSpaceCenter'>
-            <AddLeft>
-              <h4 className='font15 semiBold'>We are Terabits</h4>
-              <h2 className='font40 extraBold'>Terabits Biology</h2>
+            <AddLeft1>
+              <h2 className='font40 extraBold'>Here Our Industries</h2>
               <p className='font12'>
-                Terabits team is a group of professionals working together to
-                achieve a common goal. Through collaboration and an efficient
-                process, we develop software products towards a target market.
+                We’re currently working on Healthcare , Fintech , E commerce,
+                Entertainment projects. Browse through software solutions we
+                specialise in and let’s get straight to business.
               </p>
+              <ServiceListWrapper className='font12'>
+                <li>Teleconsultation App</li>
+                <li>Online Pharmacy App</li>
+                <li>Hospital managemnt platform</li>
+                <li>Banking app development</li>
+                <li>Microfinance app development</li>
+                <li>Wallet app development</li>
+                <li>Bill Aggregator</li>
+                <li>Payment Aggregator</li>
+                <li>Payment Hub and etc.</li>
+              </ServiceListWrapper>
               <ButtonsRow
                 className='flexNullCenter'
                 style={{ margin: '30px 0' }}
@@ -40,45 +48,32 @@ export default function Services() {
                     /> */}
                   <FullButton title='See More' />
                 </div>
-                <div style={{ width: '190px', marginLeft: '15px' }}>
-                  {/* <FullButton
-                      title='Contact Us'
-                      action={() => alert('clicked')}
-                      border
-                    /> */}
-                  <FullButton title='Contact Us' border />
-                </div>
               </ButtonsRow>
-            </AddLeft>
-            <AddRight>
-              <AddRightInner>
+            </AddLeft1>
+            <AddRight1>
+              <AddRightInner1>
                 <div className='flexNullCenter'>
-                  <AddImgWrapp1 className='flexCenter'>
-                    <img src={AddImage1} alt='office' />
-                  </AddImgWrapp1>
-                  <AddImgWrapp2>
-                    <img src={AddImage2} alt='office' />
-                  </AddImgWrapp2>
+                  <AddImgWrapp className='flexCenter'>
+                    <img src={AddImage1} alt='add' />
+                  </AddImgWrapp>
                 </div>
-                <div className='flexNullCenter'>
-                  <AddImgWrapp3>
-                    <img src={AddImage3} alt='office' />
-                  </AddImgWrapp3>
-                  <AddImgWrapp4>
-                    <img src={AddImage4} alt='office' />
-                  </AddImgWrapp4>
-                </div>
-              </AddRightInner>
-            </AddRight>
+              </AddRightInner1>
+            </AddRight1>
           </Advertising>
         </div>
       </div>
       <div className='lightBg'>
         <div className='container'>
           <Advertising className='flexSpaceCenter'>
-            <AddLeft>
-              <h4 className='font15 semiBold'>We are Terabits</h4>
-              <h2 className='font40 extraBold'>Terabits Biology</h2>
+            <AddLeft2>
+              <AddLeftInner2>
+                <AddImgWrapp className='flexCenter'>
+                  <img className='radius8' src={AddImage2} alt='add' />
+                </AddImgWrapp>
+              </AddLeftInner2>
+            </AddLeft2>
+            <AddRight2>
+              <h2 className='font40 extraBold'>Why Terabits</h2>
               <p className='font12'>
                 Terabits team is a group of professionals working together to
                 achieve a common goal. Through collaboration and an efficient
@@ -90,41 +85,13 @@ export default function Services() {
               >
                 <div style={{ width: '190px' }}>
                   {/* <FullButton
-                      title='Get Started'
-                      action={() => alert('clicked')}
-                    /> */}
-                  <FullButton title='See More' />
-                </div>
-                <div style={{ width: '190px', marginLeft: '15px' }}>
-                  {/* <FullButton
-                      title='Contact Us'
-                      action={() => alert('clicked')}
-                      border
-                    /> */}
-                  <FullButton title='Contact Us' border />
+                    title='Get Started'
+                    action={() => alert('clicked')}
+                  /> */}
+                  <FullButton title='Get Started' />
                 </div>
               </ButtonsRow>
-            </AddLeft>
-            <AddRight>
-              <AddRightInner>
-                <div className='flexNullCenter'>
-                  <AddImgWrapp1 className='flexCenter'>
-                    <img src={AddImage1} alt='office' />
-                  </AddImgWrapp1>
-                  <AddImgWrapp2>
-                    <img src={AddImage2} alt='office' />
-                  </AddImgWrapp2>
-                </div>
-                <div className='flexNullCenter'>
-                  <AddImgWrapp3>
-                    <img src={AddImage3} alt='office' />
-                  </AddImgWrapp3>
-                  <AddImgWrapp4>
-                    <img src={AddImage4} alt='office' />
-                  </AddImgWrapp4>
-                </div>
-              </AddRightInner>
-            </AddRight>
+            </AddRight2>
           </Advertising>
         </div>
       </div>
@@ -156,10 +123,8 @@ export default function Services() {
               <ServiceBox
                 icon='mobile'
                 title='Mobile Development'
-                subtitle='Mobile developers make use of their 
-                programming skills in app development. 
-                Java, React, ReactNative and all things 
-                mobile app relevent.'
+                subtitle='We are experts in iOS and Android native 
+                development, as well as React Native.'
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
@@ -208,15 +173,20 @@ const ServiceBoxWrapper = styled.div`
     padding: 40px 0;
   }
 `;
+const ServiceListWrapper = styled.ul`
+  list-style-type: square;
+  margin-top: 20px;
+  line-height: 35px;
+`;
 const HeaderInfo = styled.div`
   @media (max-width: 860px) {
     text-align: center;
   }
 `;
 const Advertising = styled.div`
-  margin: 80px 0;
+  gap: 35px;
+  /* margin: 80px 0; */
   padding: 100px 0;
-  position: relative;
   @media (max-width: 1160px) {
     padding: 100px 0 40px 0;
   }
@@ -231,7 +201,7 @@ const ButtonsRow = styled.div`
     justify-content: space-between;
   }
 `;
-const AddLeft = styled.div`
+const AddLeft1 = styled.div`
   width: 50%;
   p {
     max-width: 475px;
@@ -249,66 +219,65 @@ const AddLeft = styled.div`
     }
   }
 `;
-const AddRight = styled.div`
+const AddRight1 = styled.div`
   width: 50%;
-  position: absolute;
-  top: -70px;
   right: 0;
   @media (max-width: 860px) {
     width: 80%;
-    position: relative;
     order: 1;
-    top: -40px;
   }
 `;
-const AddRightInner = styled.div`
+const AddRightInner1 = styled.div`
   width: 100%;
 `;
-const AddImgWrapp1 = styled.div`
-  width: 48%;
-  margin: 0 6% 10px 6%;
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 1rem;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+const AddLeft2 = styled.div`
+  width: 50%;
+  p {
+    max-width: 475px;
+  }
+  @media (max-width: 860px) {
+    width: 80%;
+    order: 2;
+    text-align: center;
+    h2 {
+      line-height: 3rem;
+      margin: 15px 0;
+    }
+    p {
+      margin: 0 auto;
+    }
   }
 `;
-const AddImgWrapp2 = styled.div`
-  width: 30%;
-  margin: 0 5% 10px 5%;
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 1rem;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+const AddLeftInner2 = styled.div`
+  width: 100%;
+  left: 0;
+  @media (max-width: 1190px) {
+    /* top: -250px; */
+  }
+  @media (max-width: 920px) {
+    /* top: -200px; */
+  }
+  @media (max-width: 860px) {
+    order: 1;
+    /* top: -60px; */
+    left: 0;
   }
 `;
-const AddImgWrapp3 = styled.div`
-  width: 20%;
-  margin-left: 40%;
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 1rem;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+const AddRight2 = styled.div`
+  width: 50%;
+  @media (max-width: 860px) {
+    width: 80%;
+    order: 2;
   }
 `;
-const AddImgWrapp4 = styled.div`
-  width: 30%;
-  margin: 0 5% auto;
+const AddImgWrapp = styled.div`
+  width: 100%;
   img {
     width: 100%;
     height: auto;
-    border-radius: 1rem;
+    /* border-radius: 1rem;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3); */
   }
 `;

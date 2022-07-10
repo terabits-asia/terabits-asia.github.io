@@ -54,18 +54,6 @@ export default function TopNavbar() {
               <Link
                 activeClass='active'
                 style={{ padding: '10px 15px' }}
-                to='contact'
-                spy={true}
-                smooth={true}
-                offset={-80}
-              >
-                About Us
-              </Link>
-            </li>
-            <li className='semiBold font15 pointer'>
-              <Link
-                activeClass='active'
-                style={{ padding: '10px 15px' }}
                 to='services'
                 spy={true}
                 smooth={true}
@@ -84,6 +72,18 @@ export default function TopNavbar() {
                 offset={-80}
               >
                 Projects
+              </Link>
+            </li>
+            <li className='semiBold font15 pointer'>
+              <Link
+                activeClass='active'
+                style={{ padding: '10px 15px' }}
+                to='contact'
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
+                About Us
               </Link>
             </li>
           </UlWrapperRight>
@@ -118,12 +118,6 @@ const BurderWrapper = styled.button`
   display: none;
   @media (max-width: 760px) {
     display: block;
-  }
-`;
-const UlWrapper = styled.ul`
-  display: flex;
-  @media (max-width: 760px) {
-    display: none;
   }
 `;
 const UlWrapperRight = styled.ul`
