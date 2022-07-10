@@ -30,9 +30,6 @@ export default function TopNavbar() {
         <NavInner className='container flexSpaceCenter'>
           <Link className='pointer flexNullCenter' to='home' smooth={true}>
             <LogoIcon />
-            {/* <h1 style={{ marginLeft: '15px' }} className='font20 extraBold'>
-              terabits.asia
-            </h1> */}
           </Link>
           <BurderWrapper
             className='pointer'
@@ -40,7 +37,7 @@ export default function TopNavbar() {
           >
             <BurgerIcon />
           </BurderWrapper>
-          <UlWrapper className='flexNullCenter'>
+          <UlWrapperRight className='flexNullCenter'>
             <li className='semiBold font15 pointer'>
               <Link
                 activeClass='active'
@@ -50,7 +47,19 @@ export default function TopNavbar() {
                 smooth={true}
                 offset={-80}
               >
-                Home
+                Industry
+              </Link>
+            </li>
+            <li className='semiBold font15 pointer'>
+              <Link
+                activeClass='active'
+                style={{ padding: '10px 15px' }}
+                to='contact'
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
+                About Us
               </Link>
             </li>
             <li className='semiBold font15 pointer'>
@@ -77,49 +86,8 @@ export default function TopNavbar() {
                 Projects
               </Link>
             </li>
-            {/* <li className='semiBold font15 pointer'>
-              <Link
-                activeClass='active'
-                style={{ padding: '10px 15px' }}
-                to='blog'
-                spy={true}
-                smooth={true}
-                offset={-80}
-              >
-                Blog
-              </Link>
-            </li> */}
-            {/* <li className='semiBold font15 pointer'>
-              <Link
-                activeClass='active'
-                style={{ padding: '10px 15px' }}
-                to='pricing'
-                spy={true}
-                smooth={true}
-                offset={-80}
-              >
-                Pricing
-              </Link>
-            </li> */}
-            <li className='semiBold font15 pointer'>
-              <Link
-                activeClass='active'
-                style={{ padding: '10px 15px' }}
-                to='contact'
-                spy={true}
-                smooth={true}
-                offset={-80}
-              >
-                Contact
-              </Link>
-            </li>
-          </UlWrapper>
+          </UlWrapperRight>
           <UlWrapperRight className='flexNullCenter'>
-            {/* <li className='semiBold font15 pointer'>
-              <a href='/' style={{ padding: '10px 30px 10px 0' }}>
-                Log in
-              </a>
-            </li> */}
             <li className='semiBold font15 pointer flexCenter'>
               <LinkButton href='/'>Get Started</LinkButton>
             </li>

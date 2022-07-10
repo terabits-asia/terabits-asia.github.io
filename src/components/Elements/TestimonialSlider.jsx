@@ -33,38 +33,24 @@ export default function TestimonialSlider() {
       <Slider {...settings}>
         <LogoWrapper className='flexCenter'>
           <TestimonialBox
-            text='Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.'
-            author='Ralph Waldo Emerson'
+            text='Let us know what u want, one of our
+            representatives will contact you in 1 business
+            day, for further communication.'
+            author='Send us your requirement'
           />
         </LogoWrapper>
         <LogoWrapper className='flexCenter'>
           <TestimonialBox
-            text='Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.'
-            author='Ralph Waldo Emerson'
+            text='We would like to assure you the privacy of
+            your idea and project.'
+            author='Sign NDA'
           />
         </LogoWrapper>
         <LogoWrapper className='flexCenter'>
           <TestimonialBox
-            text='Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.'
-            author='Ralph Waldo Emerson'
-          />
-        </LogoWrapper>
-        <LogoWrapper className='flexCenter'>
-          <TestimonialBox
-            text='Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.'
-            author='Ralph Waldo Emerson'
-          />
-        </LogoWrapper>
-        <LogoWrapper className='flexCenter'>
-          <TestimonialBox
-            text='Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.'
-            author='Ralph Waldo Emerson'
-          />
-        </LogoWrapper>
-        <LogoWrapper className='flexCenter'>
-          <TestimonialBox
-            text='Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.'
-            author='Ralph Waldo Emerson'
+            text='Get your estimation & we will make the magic
+            happen !'
+            author='Analayzing your requirements'
           />
         </LogoWrapper>
       </Slider>

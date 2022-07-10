@@ -18,16 +18,125 @@ export default function Services() {
           <ClientSlider />
         </div>
       </div>
+      <div className='lightBg'>
+        <div className='container'>
+          <Advertising className='flexSpaceCenter'>
+            <AddLeft>
+              <h4 className='font15 semiBold'>We are Terabits</h4>
+              <h2 className='font40 extraBold'>Terabits Biology</h2>
+              <p className='font12'>
+                Terabits team is a group of professionals working together to
+                achieve a common goal. Through collaboration and an efficient
+                process, we develop software products towards a target market.
+              </p>
+              <ButtonsRow
+                className='flexNullCenter'
+                style={{ margin: '30px 0' }}
+              >
+                <div style={{ width: '190px' }}>
+                  {/* <FullButton
+                      title='Get Started'
+                      action={() => alert('clicked')}
+                    /> */}
+                  <FullButton title='See More' />
+                </div>
+                <div style={{ width: '190px', marginLeft: '15px' }}>
+                  {/* <FullButton
+                      title='Contact Us'
+                      action={() => alert('clicked')}
+                      border
+                    /> */}
+                  <FullButton title='Contact Us' border />
+                </div>
+              </ButtonsRow>
+            </AddLeft>
+            <AddRight>
+              <AddRightInner>
+                <div className='flexNullCenter'>
+                  <AddImgWrapp1 className='flexCenter'>
+                    <img src={AddImage1} alt='office' />
+                  </AddImgWrapp1>
+                  <AddImgWrapp2>
+                    <img src={AddImage2} alt='office' />
+                  </AddImgWrapp2>
+                </div>
+                <div className='flexNullCenter'>
+                  <AddImgWrapp3>
+                    <img src={AddImage3} alt='office' />
+                  </AddImgWrapp3>
+                  <AddImgWrapp4>
+                    <img src={AddImage4} alt='office' />
+                  </AddImgWrapp4>
+                </div>
+              </AddRightInner>
+            </AddRight>
+          </Advertising>
+        </div>
+      </div>
+      <div className='lightBg'>
+        <div className='container'>
+          <Advertising className='flexSpaceCenter'>
+            <AddLeft>
+              <h4 className='font15 semiBold'>We are Terabits</h4>
+              <h2 className='font40 extraBold'>Terabits Biology</h2>
+              <p className='font12'>
+                Terabits team is a group of professionals working together to
+                achieve a common goal. Through collaboration and an efficient
+                process, we develop software products towards a target market.
+              </p>
+              <ButtonsRow
+                className='flexNullCenter'
+                style={{ margin: '30px 0' }}
+              >
+                <div style={{ width: '190px' }}>
+                  {/* <FullButton
+                      title='Get Started'
+                      action={() => alert('clicked')}
+                    /> */}
+                  <FullButton title='See More' />
+                </div>
+                <div style={{ width: '190px', marginLeft: '15px' }}>
+                  {/* <FullButton
+                      title='Contact Us'
+                      action={() => alert('clicked')}
+                      border
+                    /> */}
+                  <FullButton title='Contact Us' border />
+                </div>
+              </ButtonsRow>
+            </AddLeft>
+            <AddRight>
+              <AddRightInner>
+                <div className='flexNullCenter'>
+                  <AddImgWrapp1 className='flexCenter'>
+                    <img src={AddImage1} alt='office' />
+                  </AddImgWrapp1>
+                  <AddImgWrapp2>
+                    <img src={AddImage2} alt='office' />
+                  </AddImgWrapp2>
+                </div>
+                <div className='flexNullCenter'>
+                  <AddImgWrapp3>
+                    <img src={AddImage3} alt='office' />
+                  </AddImgWrapp3>
+                  <AddImgWrapp4>
+                    <img src={AddImage4} alt='office' />
+                  </AddImgWrapp4>
+                </div>
+              </AddRightInner>
+            </AddRight>
+          </Advertising>
+        </div>
+      </div>
       <div className='whiteBg' style={{ padding: '60px 0' }}>
         <div className='container'>
           <HeaderInfo>
             <h1 className='font40 extraBold'>Our Awesome Services</h1>
             <p className='font13'>
-              Lorem he primary purpose of offering employee loan is to ease the
-              monetary stress for the employees. for the employees. It may
-              become financial assistance in case of an emergency as.
+              Terabits is a team who creates user friendly digital products with
+              brilliant and innovative minds
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              and promises to achieve your business goals.
             </p>
           </HeaderInfo>
           <ServiceBoxRow className='flex'>
@@ -75,61 +184,6 @@ export default function Services() {
               />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
-        </div>
-        <div className='lightBg'>
-          <div className='container'>
-            <Advertising className='flexSpaceCenter'>
-              <AddLeft>
-                <h4 className='font15 semiBold'>We are Terabits</h4>
-                <h2 className='font40 extraBold'>Terabits Biology</h2>
-                <p className='font12'>
-                  Terabits team is a group of professionals working together to
-                  achieve a common goal. Through collaboration and an efficient
-                  process, we develop software products towards a target market.
-                </p>
-                <ButtonsRow
-                  className='flexNullCenter'
-                  style={{ margin: '30px 0' }}
-                >
-                  <div style={{ width: '190px' }}>
-                    {/* <FullButton
-                      title='Get Started'
-                      action={() => alert('clicked')}
-                    /> */}
-                    <FullButton title='See More' />
-                  </div>
-                  <div style={{ width: '190px', marginLeft: '15px' }}>
-                    {/* <FullButton
-                      title='Contact Us'
-                      action={() => alert('clicked')}
-                      border
-                    /> */}
-                    <FullButton title='Contact Us' border />
-                  </div>
-                </ButtonsRow>
-              </AddLeft>
-              <AddRight>
-                <AddRightInner>
-                  <div className='flexNullCenter'>
-                    <AddImgWrapp1 className='flexCenter'>
-                      <img src={AddImage1} alt='office' />
-                    </AddImgWrapp1>
-                    <AddImgWrapp2>
-                      <img src={AddImage2} alt='office' />
-                    </AddImgWrapp2>
-                  </div>
-                  <div className='flexNullCenter'>
-                    <AddImgWrapp3>
-                      <img src={AddImage3} alt='office' />
-                    </AddImgWrapp3>
-                    <AddImgWrapp4>
-                      <img src={AddImage4} alt='office' />
-                    </AddImgWrapp4>
-                  </div>
-                </AddRightInner>
-              </AddRight>
-            </Advertising>
-          </div>
         </div>
       </div>
     </Wrapper>

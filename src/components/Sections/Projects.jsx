@@ -11,10 +11,10 @@ import ProjectImg3 from '../../assets/img/projects/3.png';
 export default function Projects() {
   return (
     <Wrapper id='projects'>
-      <div className='whiteBg'>
+      <div className='lightBg'>
         <div className='container'>
           <HeaderInfo>
-            <h1 className='font40 extraBold'>Our Products</h1>
+            <h1 className='font40 extraBold'>Our Projects</h1>
             <p className='font13'>
               Our teams have experienced with many products. You can check our
               products here.
@@ -32,7 +32,7 @@ export default function Projects() {
               /> */}
               <ProjectBox
                 img={ProjectImg1}
-                title='Digital Mobile Wallet'
+                title='BNB App'
                 text='You can use digital wallet to purchase items in stores, 
                 send money to family and friends and more.'
               />
@@ -40,17 +40,17 @@ export default function Projects() {
             <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
               <ProjectBox
                 img={ProjectImg2}
-                title='Payment Gateway'
-                text='Merchants use that platform for receiving customer’s payments 
-                with different kinds of payment in one gateway.'
+                title='Loan App'
+                text='Apply loan with a convenient way to get quick cash. Can avoid
+                filling out a long application or talk to a loan officer.'
               />
             </div>
             <div className='col-xs-12 col-sm-4 col-md-4 col-lg-4'>
               <ProjectBox
                 img={ProjectImg3}
-                title='Mobile Banking App'
-                text='You can manage your everyday banking needs anytime, anywhere 
-                and discover a wide range of features and services on app.'
+                title='Auction App'
+                text='Auction app is your best bet for auctioning things on mobile. You
+                can put in bids on things on the site through the app.'
               />
             </div>
           </div>

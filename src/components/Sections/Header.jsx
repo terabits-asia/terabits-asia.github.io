@@ -4,8 +4,6 @@ import styled from 'styled-components';
 import FullButton from '../Buttons/FullButton';
 
 import HeaderImage from '../../assets/img/header-img.png';
-import QuotesIcon from '../../assets/svg/Quotes';
-import Dots from '../../assets/svg/Dots';
 
 export default function Header() {
   return (
@@ -23,7 +21,7 @@ export default function Header() {
             you build a software team.
           </HeaderP>
           <BtnWrapper>
-            <FullButton title='Get Started' />
+            <FullButton title='Let’s work together' />
           </BtnWrapper>
         </div>
       </LeftSide>
@@ -33,32 +31,23 @@ export default function Header() {
             className='radius8'
             src={HeaderImage}
             alt='office'
-            style={{ width: 426, height: 607, zIndex: 9 }}
+            style={{ width: 526, height: 507, zIndex: 9 }}
           />
           <QuoteWrapper className='flexCenter darkBg radius8'>
-            <QuotesWrapper>
-              <QuotesIcon />
-            </QuotesWrapper>
             <div>
-              <p className='font15 whiteColor'>
-                <em>
-                  Startup is like people are sitting in a boat and rowing. All
-                  must row and it will go forward quickly.
-                </em>
+              <p className='font13 whiteColor'>
+                Startup is like people are sitting in a boat and rowing. All
+                must row and it will go forward quickly.
               </p>
               <p
-                className='font13 greenColor textRight'
+                className='font15 greenColor textRight'
                 style={{ marginTop: '10px' }}
               >
                 Leader of our Terabits
               </p>
             </div>
           </QuoteWrapper>
-          <DotsWrapper>
-            <Dots />
-          </DotsWrapper>
         </ImageWrapper>
-        <GreyDiv className='lightBg'></GreyDiv>
       </RightSide>
     </Wrapper>
   );
@@ -110,17 +99,6 @@ const BtnWrapper = styled.div`
     margin: 0 auto;
   }
 `;
-const GreyDiv = styled.div`
-  width: 30%;
-  height: 700px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 0;
-  @media (max-width: 960px) {
-    display: none;
-  }
-`;
 const ImageWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
@@ -149,22 +127,5 @@ const QuoteWrapper = styled.div`
   }
   @media (max-width: 560px) {
     bottom: -50px;
-  }
-`;
-const QuotesWrapper = styled.div`
-  position: absolute;
-  left: -20px;
-  top: -10px;
-`;
-const DotsWrapper = styled.div`
-  position: absolute;
-  right: -100px;
-  bottom: 100px;
-  z-index: 2;
-  @media (max-width: 960px) {
-    right: 100px;
-  }
-  @media (max-width: 560px) {
-    display: none;
   }
 `;
